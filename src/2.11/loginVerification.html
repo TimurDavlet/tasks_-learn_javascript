@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>2.11</title>
+  </head>
+  <body>
+    <script>
+      let userName = prompt("Введите логин?", '');
+
+      if (userName === 'Админ') {
+
+        let pass = prompt('Пароль?', '');
+
+        if (pass === 'Я главный') {
+          alert( 'Здравствуйте!' );
+        } else if (pass === '' || pass === null) {
+          alert( 'Отменено' );
+        } else {
+          alert( 'Неверный пароль' );
+        }
+
+      } else if (userName === '' || userName === null) {
+        alert( 'Отменено' );
+      } else {
+        alert( "Я вас не знаю" );
+      }
+    </script>
+  </body>
+</html>

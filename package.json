@@ -1,0 +1,19 @@
+{
+  "name": "tasks_-learn_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimurDavlet/tasks_-learn_javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimurDavlet/tasks_-learn_javascript/issues"
+  },
+  "homepage": "https://github.com/TimurDavlet/tasks_-learn_javascript#readme"
+}
